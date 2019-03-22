@@ -1,0 +1,49 @@
+ <!DOCTYPE HTML>
+    <html lang="en-EN">
+    <head>
+        <meta name="Author" content="Natalia Pasturczak"/>
+        <meta name="keywords" content="wampiriada"/>
+        <meta name="description" content="Wampiriada 2019"/>
+        <meta charset="utf-8"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <!--sposób wyświetlania na urządzeniach mobilnych-->
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="icon" href="favicon.ico"/>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <title> Wampiriada </title>
+    </head>
+<body>
+<div id="main">
+    <h1> Wampiriada 2019 </h1>
+    <button id="draw" class="btn btn-success"> Losuj nagrodę! </button>
+    <button id="confirm" class="btn btn-warning"> Potwierdź </button>
+</div>
+</body>
+</html>
+ <script xmlns:th="http://www.w3.org/1999/xhtml" th:inline="javascript">
+
+     function showReward() {
+         var reward = [[${reward}]];
+         alert(reward);
+         document.getElementById("draw").disabled = true;
+         document.getElementById("confirm").disabled = false;
+     }
+
+     function confirmReward() {
+         document.getElementById("draw").disabled = false;
+         document.getElementById("confirm").disabled = true;
+     }
+
+     function clickNewDrawButton() {
+         document.getElementById("draw").addEventListener("click", showReward);
+         document.getElementById("confirm").addEventListener("click", confirmReward);
+         document.getElementById("confirm").disabled = true;
+     }
+
+     window.addEventListener("load", function () {
+         clickNewDrawButton();
+     });
+ </script>

@@ -1,0 +1,20 @@
+body {
+    background-color: #c2c1ac;
+}
+
+h1, h2{
+    color: #9b071f;
+    align: center;
+    text-shadow: 2px 2px 2px #111111;
+    text-decoration-color: #9b071f;
+}
+
+#main {
+    background-color: rgba(250, 250, 250, 0.7);
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    width: 500px;
+    margin: 1em auto;
+    border: 5px solid black;
+}
