@@ -25,7 +25,7 @@ public class JourneyController {
     private RewardRepository rewardRepository;
 
     @GetMapping("/losowanie")
-    public String showJourneyPlan(Model model, HttpServletRequest req, @ModelAttribute("second_try") String cheater) {
+    public String showJourneyPlan(Model model, HttpServletRequest req) {
         HttpSession session = req.getSession();
         Users user = (Users) session.getAttribute("user");
         if (user == null) {
@@ -38,10 +38,10 @@ public class JourneyController {
             Random rand = new Random();
             Integer n = rand.nextInt(size);
 
-            rewards = rewardRepository.findById(2L);
-            String reward1 = "";
-            for (Reward reward: rewards)
-            reward1 = reward.getText();
+            List<Reward> rewards2 = rewardRepository.findById(2L);
+            List<String> reward1 = new ArrayList<>();
+            for (Reward reward: rewards2)
+            reward1.add(reward.getText());
 
             model.addAttribute("reward", reward1);
         }

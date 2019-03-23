@@ -7,5 +7,6 @@ import pl.edu.wampa.domain.Reward;
 import java.util.List;
 
 public interface RewardRepository extends JpaRepository<Reward, Long> {
+    List<Reward> findAll();
     List<Reward> findById(Long id);
 }
