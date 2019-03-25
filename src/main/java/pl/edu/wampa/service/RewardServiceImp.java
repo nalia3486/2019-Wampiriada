@@ -15,7 +15,13 @@ public class RewardServiceImp implements RewardService {
     @Autowired
     private RewardRepository rewardRepository;
 
-    public List<Reward> listById(Long id) {
-        return rewardRepository.findById(id);
+    @Override
+    public List<Reward> findAll() {
+        return rewardRepository.findAll();
+    }
+
+    @Override
+    public List<Reward> findAllById(Long l) {
+        return rewardRepository.findAllById(l);
     }
 }
