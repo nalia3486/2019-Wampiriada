@@ -17,17 +17,34 @@
 </head>
 <body>
 <a href="logout" class="btn btn-danger">Wyloguj</a>
-<a href="wylosowane" class="btn btn-info">Nagrody</a>
+<a href="losowanie" class="btn btn-info">Losowanie</a>
 <div id="main">
     <h1> Wampiriada 2019 </h1>
-    <div id="clickButton">
-        <form method="POST">
-            <input type="submit" value="Losuj" class="btn btn-success" >
-        </form>
+    <h3> Nagrody do wylosowania: </h3>
+    <div th:unless="${#lists.isEmpty(nagrody)}">
+        <table id="table" class="table" style="width: 30%" border="1" align="center">
+            <tr>
+                <th class="text-center">Nagrody</th>
+            </tr>
+            <dl th:each="user : ${nagrody}">
+                <tr>
+                    <td align="center"><span th:text="${user}"></span></td>
+                </tr>
+            </dl>
+        </table>
     </div>
-    <div id="success">
-        <h2>Wylosowano: </h2>
-        <h2 th:text="${rewards}"> </h2>
+    <h3> Zostały już wylosowane: </h3>
+    <div th:unless="${#lists.isEmpty(wylosowane)}">
+        <table id="table1" class="table" style="width: 30%" border="1" align="center">
+            <tr>
+                <th class="text-center">Nagrody</th>
+            </tr>
+            <dl th:each="user : ${wylosowane}">
+                <tr>
+                    <td align="center"><span th:text="${user}"></span></td>
+                </tr>
+            </dl>
+        </table>
     </div>
 </div>
 </body>

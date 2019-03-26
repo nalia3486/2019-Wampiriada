@@ -25,14 +25,12 @@ public class LoginController {
     }
 
     @GetMapping("/login")
-    public String showLogin(Model model, @ModelAttribute("log_after_registry") String log_after_reg_info,
-                            HttpServletRequest req) {
+    public String showLogin(Model model, HttpServletRequest req) {
         HttpSession session = req.getSession();
         Users user = (Users) session.getAttribute("user");
         if (user != null) {
             return "redirect:/losowanie";
         }
-        model.addAttribute("alert", log_after_reg_info);
         return "login";
     }
 
