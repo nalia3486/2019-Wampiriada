@@ -11,7 +11,6 @@ import pl.edu.wampa.service.RewardService;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
-import javax.xml.crypto.Data;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -32,7 +31,7 @@ public class JourneyController {
 
     private final static String filePath = "src/rewards.txt";
     private final static String filePath2 = "src/wylosowane.txt";
-    private final static String filePath3 = "src/logi.txt";
+//    private final static String filePath3 = "src/logi.txt";
 
     @GetMapping("/losowanie")
     public String showJourneyPlan(Model model, HttpServletRequest req) {
@@ -85,14 +84,14 @@ public class JourneyController {
         Files.write(Paths.get(filePath), sb.toString().getBytes(), StandardOpenOption.TRUNCATE_EXISTING);
         Files.write(Paths.get(filePath2), (wylosowane+System.lineSeparator()).getBytes(), StandardOpenOption.APPEND);
         LocalDateTime ldt = LocalDateTime.now();
-        Files.write(Paths.get(filePath3), (ldt+ ": "+ wylosowane+ System.lineSeparator()).getBytes(),
-                StandardOpenOption.APPEND);
+//        Files.write(Paths.get(filePath3), (ldt+ ": "+ wylosowane+ System.lineSeparator()).getBytes(),
+//                StandardOpenOption.APPEND);
         return wylosowane;
     }
 
     private static List<String> listaPytan() throws Exception {
-        List<String> list = new ArrayList<>();
         FileReader fileReader = new FileReader(filePath);
+        List<String> list = new ArrayList<>();
         BufferedReader bufferedReader = new BufferedReader(fileReader);
         String textLine = bufferedReader.readLine();
         do {

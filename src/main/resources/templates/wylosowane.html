@@ -22,6 +22,7 @@
     <h1> Wampiriada 2019 </h1>
     <h3> Nagrody do wylosowania: </h3>
     <div th:unless="${#lists.isEmpty(nagrody)}">
+        <h3 th:text="${#lists.size(nagrody)}"> </h3>
         <table id="table" class="table" style="width: 30%" border="1" align="center">
             <tr>
                 <th class="text-center">Nagrody</th>
@@ -35,6 +36,7 @@
     </div>
     <h3> Zostały już wylosowane: </h3>
     <div th:unless="${#lists.isEmpty(wylosowane)}">
+        <h3 th:text="${#lists.size(wylosowane)}"> </h3>
         <table id="table1" class="table" style="width: 30%" border="1" align="center">
             <tr>
                 <th class="text-center">Nagrody</th>
@@ -50,5 +52,16 @@
 </body>
 </html>
 <script xmlns:th="http://www.w3.org/1999/xhtml" th:inline="javascript">
+    function download(filename, text) {
+        var element = document.createElement('a');
+        element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+        element.setAttribute('download', filename);
 
+        element.style.display = 'none';
+        document.body.appendChild(element);
+
+        element.click();
+
+        document.body.removeChild(element);
+    }
 </script>

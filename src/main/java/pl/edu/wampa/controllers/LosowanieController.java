@@ -43,6 +43,7 @@ public class LosowanieController {
             wylosowane = listaPytan(filePath2);
             if (nagrody.get(0) != null) {
             System.out.println(nagrody);
+            System.out.println(wylosowane);
         }
             model.addAttribute("nagrody", nagrody);
             model.addAttribute("wylosowane", wylosowane);

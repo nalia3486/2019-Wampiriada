@@ -9,4 +9,8 @@ import java.util.List;
 public interface RewardRepository extends JpaRepository<Reward, Long> {
     List<Reward> findAll();
     List<Reward> findAllById(Long id);
+
+//    public void delete(int id);
+//
+//    String findFirstByText(String text);
 }

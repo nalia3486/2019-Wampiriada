@@ -24,4 +24,13 @@ public class RewardServiceImp implements RewardService {
     public List<Reward> findAllById(Long l) {
         return rewardRepository.findAllById(l);
     }
+
+//    @Override
+//    public void delete(int id) {
+//        rewardRepository.delete(id);
+//    }
+//
+//    public String findFirstByText(String t){
+//        return rewardRepository.findFirstByText(t);
+//    }
 }

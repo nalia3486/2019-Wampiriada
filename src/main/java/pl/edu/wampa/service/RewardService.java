@@ -9,4 +9,9 @@ public interface RewardService {
     List<Reward> findAll();
 
     List<Reward> findAllById(Long l);
+
+//    public void delete(int id);
+//
+//    String findFirstByText(String t);
+
 }
