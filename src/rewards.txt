@@ -1,6 +1,4 @@
 opera
-opera
-letsplay(escaperoom)
 letsplay(escaperoom)
 bubbletea
 frytki
@@ -10,13 +8,6 @@ frytki
 frytki
 frytki
 frytki
-frytki
-frytki
-frytki
-frytki
-frytki
-frytki
-frytki
 cafe kino
 cafe kino
 cafe kino
@@ -33,136 +24,21 @@ chemik
 chemik
 chemik
 chemik
-chemik
-chemik
 zapiekanka bosfor
 zapiekanka bosfor
 zapiekanka bosfor
 zapiekanka bosfor
 zapiekanka bosfor
 zapiekanka bosfor
-zapiekanka bosfor
-zapiekanka bosfor
-vegab
-vegab
-vegab
-vegab
-vegab
-vegab
 vegab
 vegab
 vegab
 vegab
 polonia
-polonia
-polonia
-polonia
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
 notes
 notes
 notes
 notes
-notes
-notes
-notes
-czapka
-czapka
-czapka
-czapka
 czapka
 czapka
 czapka
@@ -175,21 +51,19 @@ kubek
 kubek
 kubek
 kubek
-kubek
-portfel
-portfel
-portfel
-portfel
 kropelka
 kropelka
 kropelka
 kropelka
 kropelka
 kropelka
-kropelka
-kropelka
-kropelka
-kropelka
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
 VR world
 VR world
 VR world
