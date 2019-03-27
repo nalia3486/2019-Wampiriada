@@ -17,7 +17,6 @@ frytki
 frytki
 frytki
 frytki
-frytki
 cafe kino
 cafe kino
 cafe kino
@@ -36,7 +35,6 @@ chemik
 chemik
 chemik
 chemik
-chemik
 zapiekanka bosfor
 zapiekanka bosfor
 zapiekanka bosfor
@@ -59,12 +57,6 @@ polonia
 polonia
 polonia
 polonia
-polonia
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
 brak nagrody
 brak nagrody
 brak nagrody
@@ -198,3 +190,59 @@ kropelka
 kropelka
 kropelka
 kropelka
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
+VR world
