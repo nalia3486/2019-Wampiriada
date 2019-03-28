@@ -49,3 +49,5 @@ VR world
 kropelka
 brak nagrody
 VR world
+notes
+VR world
