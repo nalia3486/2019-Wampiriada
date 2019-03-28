@@ -1,8 +1,4 @@
 opera
-letsplay(escaperoom)
-bubbletea
-frytki
-frytki
 frytki
 frytki
 frytki
@@ -11,10 +7,6 @@ frytki
 cafe kino
 cafe kino
 cafe kino
-cafe kino
-chemik
-chemik
-chemik
 chemik
 chemik
 chemik
@@ -34,7 +26,6 @@ vegab
 vegab
 vegab
 vegab
-notes
 notes
 notes
 notes
@@ -45,17 +36,8 @@ czapka
 czapka
 czapka
 słuchawki
-słuchawki
-kubek
-kubek
-kubek
 kubek
 kropelka
-kropelka
-kropelka
-kropelka
-kropelka
-kropelka
 VR world
 VR world
 VR world
@@ -95,37 +77,6 @@ VR world
 VR world
 VR world
 VR world
-VR world
-VR world
-VR world
-VR world
-VR world
-VR world
-VR world
-VR world
-VR world
-VR world
-VR world
-VR world
-VR world
-VR world
-VR world
-VR world
-VR world
-VR world
-VR world
-VR world
-VR world
-VR world
-VR world
-VR world
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
-brak nagrody
 brak nagrody
 brak nagrody
 brak nagrody
@@ -150,5 +101,3 @@ brak nagrody
 brak nagrody
 brak nagrody
 polonia
-portfel
-portfel
