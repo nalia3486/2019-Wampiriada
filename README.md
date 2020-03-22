@@ -1,2 +1,2 @@
 # 2019-Wampiriada
-Programo do losowania nagród
+Program do losowania nagród
